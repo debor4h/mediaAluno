@@ -13,13 +13,13 @@ function calc(){
         }
     else{
         if(media<=5){
-            resultado.innerHTML = `Aluno reprovado !<br>Média: ${media.toFixed(2)}`
+            resultado.innerHTML = `Aluno(a) reprovado !<br>Média: ${media.toFixed(2)}`
             document.body.style.background = 'red'
         }else if(media<=7){
-            resultado.innerHTML = `Aluno em recuperação !<br>Média: ${media.toFixed(2)}`
+            resultado.innerHTML = `Aluno(a) em recuperação !<br>Média: ${media.toFixed(2)}`
             document.body.style.background = 'orange'
         }else if(media>7){
-            resultado.innerHTML = `Aluno aprovado !<br>Média: ${media.toFixed(2)}`
+            resultado.innerHTML = `Aluno(a) aprovado !<br>Média: ${media.toFixed(2)}`
             document.body.style.background = "blue"
         }
     }
