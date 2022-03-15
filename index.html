@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora De Média Aritmética</title>
+    <link rel = "stylesheet" href = "estilo.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <h1>Calculando sua média</h1> 
+    <p>Informe suas notas</p>
+    <!-- tentar um jeito de simplificar isso -->
+    <p>M<sub>s</sub> = x<sub>1</sub>+x<sub>2</sub>+x<sub>3</sub>+ ... x<sub>n</sub><br>n</p>
+    
+    <main>
+        <label>1º nota</label>
+        <input type = "number" id = "p1" placeholder = "xx.x">
+        <label>2º nota</label>
+        <input type = "number" id = "p2" placeholder = "xx.x">
+        <label>3º nota</label>
+        <input type = "number" id = "p3" placeholder = "xx.x">
+        <input type = "button" value = "Calcular" id = "calcular" onclick = "calc()">
+        <p id = "msg"></p>
+    </main>
+    <script src = "script.js"></script>
+</body>
+</html>
