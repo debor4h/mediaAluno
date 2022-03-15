@@ -1,2 +1,2 @@
-# mediaAluno
- Programa que calcula a média.
+# Média Aritmética
+ Programa que calcula a média aritmética.
